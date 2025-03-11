@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 import tkinter as tk
 
 # Path to the folder containing your images
-folder_path = "L:/My Drive/HelloWorld/Python/random-program/CALTECH - PRACTICE  PROBLEM SOLVING"
+folder_path = "M:/My Drive/HelloWorld/python-projects/Python/random-program/caltech-practice-problem"
 
 # Get a list of all image files in the folder
 image_files = [f for f in os.listdir(
@@ -40,8 +40,6 @@ def update_timer():
         show_random_image()
 
 # Function to display a random image
-
-
 
 
 def next_image():

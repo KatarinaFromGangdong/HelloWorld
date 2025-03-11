@@ -19,12 +19,12 @@ def getChar(inputInt):
 
 text_file = ("Output.txt", "w")
 
-filePath = 'J:/My Drive/HelloWorld/Python/random-program/ayeng-grad-eyes'
-imageName = (f'{filePath}.jpg')
+filePath = 'sample-image'
+imageName = (f'{filePath}.JPEG')
 
 im = Image.open(imageName)
 
-fnt = ImageFont.truetype('C://Windows//Font//lucon.ttf', 15)
+fnt = ImageFont.truetype('C://Windows//Font//lucon.ttf', 35)
 
 width, height = im.size
 im = im.resize((int(scaleFactor*width), int(scaleFactor*height *
